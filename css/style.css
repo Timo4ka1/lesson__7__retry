@@ -1,0 +1,203 @@
+[class*="__container"]{
+   max-width: 810px;
+   margin: 0 auto;
+}
+
+div{
+   font-family: "Lato";
+}
+
+img{
+   max-width: 100%;
+}
+/*
+.logo{
+   padding-top: 25px;
+}
+
+.navig__container{
+   color: #787A80;
+   display: flex;
+   flex-direction: row;
+   padding-top: 150px;
+   font-size: 16px;
+   font-weight: 700;
+
+}
+
+.a4{
+   color: #FF3F3A;
+}
+
+.navig__container a+a{
+   margin: 20px;
+}
+
+.article__container{
+   margin-top: 80px;
+   font-weight: 400;
+}
+
+.hr-colored{
+   color: #FF3F3A;
+   font-weight: 700;
+}
+*/
+.title__container{   
+   margin-top: 12px;
+   font-weight: 900;
+   font-size: 46px;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+/*
+.information__container{
+   font-weight: 400;
+   color: #787A80;
+   margin-top: 26px;
+   margin-bottom: 40px;
+}
+
+.kalendar{
+   padding-right: 5px;
+}
+
+.time{
+   padding-left: 24px;
+   padding-right: 5px;
+}
+
+.clock{
+   margin-right: 5px;
+}
+
+.share__container a+a{
+   margin: 12px;
+}
+
+.socials__container{
+   float: right;
+}
+
+.share__container{
+   font-weight: 700;
+   color: black;
+   float: right;
+   margin-right: 6px;
+}
+*/
+.keyboard-glasses__container{
+padding-top: 25px;
+display: block;
+height: 360px;
+width: 810px;
+border-radius: 4px;
+}
+
+.par1__container{
+   font-weight: 700;
+   font-size: 20px;
+   margin-top: 60px;
+   line-height: 30px;
+}
+
+.par2__container{
+   max-height: 100px;
+   overflow: scroll;
+}
+
+.pt1{
+   margin-top: 25px;
+   border: 3px #ff403a00;
+   border-radius: 15px;
+}
+
+.pt2{
+   margin-top: 20px;
+   margin-bottom: 25px;
+   border: 3px #ff403a00;
+   border-radius: 15px;
+}
+
+.pt1,
+.pt2{
+   font-weight: 400;
+   color: #424551;
+   font-size: 16px;
+   line-height: 25px;
+}
+
+.citata__container{
+   padding-top: 48px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   background: url(../img/Rectangle268.png), url(../img/Rectangle268.png);
+   background-position: 0% 16%, 2% 16%;
+   background-repeat: no-repeat;
+}
+
+.citata__text{
+   padding-left: 50px;
+   margin-top: -33px;
+}
+
+.citata__container img+img{
+   padding-left: 8px;
+}
+
+.par3__container{
+   margin-top: 48px;
+   font-size: 16px;
+   line-height: 25px;
+   color: #424551;
+   margin-bottom: 24px;
+}
+
+.pucnts__container{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 25px;
+
+}
+
+ul.puncts__container > li {
+	max-width: 568px;
+	line-height: 1;
+	margin-bottom: 14px;
+   color: #424551;
+}
+
+ul.puncts__container > li > img {
+	margin-right: 16px;
+}
+
+.par5__container{
+   margin-top: 25px;
+   color: #424551;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 25px;
+}
+
+.button__container{
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+   font-weight: 900;
+   font-size: 48px;
+   text-transform: uppercase;
+   background: #ff0000;
+   background: linear-gradient(90deg,#ff0000 0%, #ff9a00 80%);
+   background: -webkit-linear-gradient(90deg,#ff0000 0%, #ff9a00 80%);
+   background: -moz-linear-gradient(90deg,#ff0000 0%, #ff9a00 80%);
+   background-color: #FF3F3A;
+   border-radius: 10px;
+   box-shadow: 0px 10px 0px #424551;
+   text-align: center;
+   transition: all 0.3s ease 0s;
+}
+
+.button__container:hover{
+   margin-top: 53px;
+   box-shadow: 0 4px 0 #424551;
+}
